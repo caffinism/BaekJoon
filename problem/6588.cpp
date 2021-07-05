@@ -19,6 +19,7 @@ int main() {
 	while (1) {
 		int n, a, b, flag;
 		cin >> n;
+		//what?
 
 		if (n == 0) break;
 
