@@ -39,7 +39,6 @@ int main() {
 	ios::sync_with_stdio(false);
 	cin.tie(NULL);
 	cout.tie(NULL);
-
 	for (int i = 0; i < 9; ++i) {
 		for (int j = 0; j < 9; ++j) {
 			cin >> map[i][j];
@@ -53,8 +52,6 @@ int main() {
 			}
 		}
 	}
-	
 	dfs(0);
-
 	return 0;
 }
